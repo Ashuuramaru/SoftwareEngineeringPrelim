@@ -28,7 +28,17 @@ VALUES
 (2, 2, 2, '2024-02-20', 'Tire Rotation', 80.00, 55000),
 (3, 3, 3, '2024-03-25', 'Brake Pad Replacement', 150.00, 20000),
 (4, 4, 4, '2024-04-10', 'Transmission Fluid Replacement', 250.00, 67000),
-(5, 5, 5, '2024-05-05', 'General Maintenance', 100.00, 38000);
+(5, 5, 5, '2024-05-05', 'General Maintenance', 100.00, 38000),
+(6, 1, 2, '2024-06-15', 'Tire Balancing', 60.00, 46000),
+(7, 2, 3, '2024-07-20', 'Brake Inspection', 90.00, 56000),
+(8, 3, 4, '2024-08-25', 'Transmission Check', 200.00, 22000),
+(9, 4, 5, '2024-09-10', 'Engine Tune-Up', 150.00, 68000),
+(10, 5, 1, '2024-10-05', 'Oil Change', 50.00, 39000),
+(11, 1, 3, '2024-11-01', 'Alignment Check', 70.00, 47000),
+(12, 2, 4, '2024-12-15', 'Fluid Replacement', 120.00, 57000),
+(13, 3, 5, '2024-12-30', 'Battery Replacement', 130.00, 23000),
+(14, 4, 2, '2024-11-20', 'Exhaust System Repair', 180.00, 69000),
+(15, 5, 4, '2024-10-20', 'Suspension Repair', 220.00, 40000);
 
 INSERT INTO Parts (PartID, PartName, PartCost, Quantity, ServiceID)
 VALUES 
